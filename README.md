@@ -1,5 +1,5 @@
 ### AHORCADO
-![Imagen modelo Desktop ](models/Desktop/.png)
+![Imagen modelo Desktop ](https://github.com/Ismaelnelro/ahorcado.github.io/blob/main/img/ImagenInicio.png)
 > Proyecto Challenger II
 
 Este juego busca ser un poco distinto, un tanto personalizado. Aun no esta terminado en su totaldad, pero cumple con requisitos del juego ahorcado.
