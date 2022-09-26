@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <title>Juego del Ahorcado</title>
+</head>
+
+<body>
+    <div class="container">
+        <div id="paginaInicial">
+            
+            <h1>THE HANGING TROLL</h1>
+            <button id="personaje" class="btn">ELEGIR PERSONAJE</button>
+            <button id="start" class="btn">INICIAR JEUGO</button>
+            <button id="newWord"  class="btn">NUEVA PALABRA</button>
+            <p class="advertencia visibilidad">Prohibido caracters especial, Numeros o Mayusculas</p>
+            <p class="mensaje visibilidad">Excelente eleccion!</p>
+        </div>
+
+        <div id="paginaJuego" class="visibilidad">
+
+            <div class="sectionLeft">
+                <div class="container_img">
+                    <img id="cabeza" src="img/hangtroll/head.png" alt="cabeza">
+                    <img id="mandibula" src="img/hangtroll/mandibula.png" alt="mandibula">
+                    <img id="oreja1" src="img/hangtroll/orejaderecha.png" alt="orejaderecha">
+                    <img id="oreja2" src="img/hangtroll/orejaizquierda.png" alt="orejaizquierda">
+                    <img id="cuerpo" src="img/hangtroll/torso.png" alt="cuerpo">
+                    <img id="hombro1" src="img/hangtroll/hombroderecho.png" alt="mano izquierda">
+                    <img id="hombro2" src="img/hangtroll/hombroizqiierdo.png" alt="mano derecha">
+                    <img id="antebrazo1" src="img/hangtroll/antebrazoderecho.png"alt="mano derecha">
+                    <img id="antebrazo2" src="img/hangtroll/antebrazoizquierdo.png"alt="mano derecha">
+                    <img id="mano1" src="img/hangtroll/manoderecha.png" alt="mano derecha">
+                    <img id="mano2" src="img/hangtroll/manoizquierda.png" alt="mano derecha">
+                    <img id="arma" src="img/hangtroll/arma.png" alt="mano derecha">
+                    <img id="muslo1" src="img/hangtroll/musloDerecho.png" alt="mano derecha">
+                    <img id="muslo2" src="img/hangtroll/musloIzquierdo.png" alt="mano derecha">
+                    <img id="pelvis" src="img/hangtroll/pelvis.png" alt="mano derecha">
+                    <img id="canilla1" src="img/hangtroll/tibiaderecha.png" alt="mano derecha">
+                    <img id="canilla2" src="img/hangtroll/tibiaizquierda.png" alt="mano derecha">
+                    <img id="pie1" src="img/hangtroll/pieDERECHO.png" alt="pie izquierda">
+                    <img id="pie2" src="img/hangtroll/pieIZQUIERDO.png" alt="pie derecho">
+                    <img id="soga" src="img/hangtroll/soga.png" alt="soga">
+
+                    <img id="floor" src="img/hangtroll/suelo.png" alt="floor">
+                    <img id="techo" src="img/hangtroll/suelo.png" alt="floor">
+                    <img id="palo" src="img/hangtroll/suelo.png" alt="palo">
+                </div>
+                <div class="container_letras_acertadas">
+                    <div id="box">
+                        <div class="box_letras"></div>
+                        <div class="box_espacios"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sectionRight">
+
+                <div class="container_letras_erradas visibilidad">
+                    <div class="box_error_container">
+                        <div id="box_errores">
+                        </div>
+                    </div>
+                </div>
+
+                <div  class="container_input visibilidad">
+                    <input  id="input" type="text" placeholder="ingresar letra">
+                    <button  id="btn" class="elegirLetra">INGRESAR</button>
+                </div>
+
+                
+                
+                <div id="historia">
+                    
+                </div>
+                
+                <div class="containerAyuda visibilidad">
+                    <button class="btn eleccion" id="si">SI</button>
+                    <button class="btn eleccion" id="no">NO</button>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="containerPersonajes" class="visibilidad">
+    </div>
+
+    <canvas id="canvas"></canvas>
+    <div id="dialogo">
+    </div>
+
+
+</body>
+<script type="text/javascript" src="index.js"></script>
+
+</script>
+
+</html>
