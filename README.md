@@ -1,4 +1,5 @@
 ### AHORCADO
+
 ![Imagen modelo Desktop ](https://github.com/Ismaelnelro/ahorcado.github.io/blob/main/img/ImagenInicio.png)
 ![Imagen modelo Desktop ](https://github.com/Ismaelnelro/ahorcado.github.io/blob/main/img/personajes.png)
 ![Imagen modelo Desktop ](https://github.com/Ismaelnelro/ahorcado.github.io/blob/main/img/eleccion.png)
@@ -25,7 +26,4 @@ Este juego busca ser un poco distinto, un tanto personalizado. Aun no esta termi
 
 
 Fallas a mejorar:
-Son incontables, pero se iran mejorando ya que busque hacerlo diferente.
-
-Por ultimo!
-Si no se vilualiza al personaje te invito a descargar el proyecto y ejecutarlo en tu navegador favorito
+Son incontables, pero se iran mejorando ya que busque hacerlo diferente. No subo githubPage porque no se visualiza bien los sprites.
