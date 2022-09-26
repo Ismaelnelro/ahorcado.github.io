@@ -1,5 +1,7 @@
 ### AHORCADO
 
+##IMPORTANTE: no cuenta con un github page porque no se cargan bien los Sprite!. Estoy tratando de resolverlo. Te invito a descargar y ejecutarlo!
+
 ![Imagen modelo Desktop ](https://github.com/Ismaelnelro/ahorcado.github.io/blob/main/img/ImagenInicio.png)
 ![Imagen modelo Desktop ](https://github.com/Ismaelnelro/ahorcado.github.io/blob/main/img/personajes.png)
 ![Imagen modelo Desktop ](https://github.com/Ismaelnelro/ahorcado.github.io/blob/main/img/eleccion.png)
